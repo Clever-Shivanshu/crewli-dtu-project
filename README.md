@@ -14,6 +14,6 @@ crewli/
 ## Core Technologies
 
 - **Backend:** Node.js, Fastify, MongoDB, Mongoose, Firebase Admin.
-- **Mobile:** React Native, Expo (modules), Zustand (State Management), Lucide Icons, Vanilla CSS (Stylesheets).
+- **Mobile:** React Native, Zustand (State Management), Lucide Icons, Vanilla CSS (Stylesheets).
 - **Native Android:** Kotlin, Android BroadcastReceivers, Full-Screen Intents, WakeLocks (for Incoming Job Activity).
 
