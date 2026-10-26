@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crewli</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 420px;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    .launch {
+      font-size: 13px;
+      margin-bottom: 20px;
+      color: #888;
+    }
+
+    .downloads {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 8px;
+      background: #111;
+      color: #fff;
+      font-size: 14px;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+
+    .btn.secondary {
+      background: #eee;
+      color: #111;
+    }
+
+    .btn.secondary:hover {
+      background: #ddd;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <!-- Logo -->
+    <img src="main.png" alt="Crewli Logo" class="logo">
+
+    <!-- Description -->
+    <p>
+      Find trusted workers near you. Book services instantly and get things done faster.
+    </p>
+
+    <!-- Launch Notice -->
+    <div class="launch">
+      Launching soon on Google Play Store
+    </div>
+
+    <!-- Downloads -->
+    <div class="downloads">
+      <a href="customer.apk" class="btn" download>
+        Download Customer App
+      </a>
+
+      <a href="worker.apk" class="btn secondary" download>
+        Download Worker App
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      Pre-release testing builds
+    </div>
+<p style="font-size:12px; color:#777;">
+  Version 1 • Secure test build
+</p>
+  </div>
+
+</body>
+</html>

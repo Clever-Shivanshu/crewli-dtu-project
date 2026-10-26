@@ -1,0 +1,16 @@
+{
+  "name": "crewli-root",
+  "version": "1.0.0",
+  "description": "Root workspace runner for Crewli platform",
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:customer": "npm --prefix customer-app start",
+    "start:workers": "npm --prefix workers-app start -- --port 8002",
+    "android:customer": "npm --prefix customer-app run android",
+    "android:workers": "npm --prefix workers-app run android",
+    "typecheck:customer": "npm --prefix customer-app run typecheck",
+    "typecheck:workers": "npm --prefix workers-app run typecheck",
+    "typecheck": "npm run typecheck:customer && npm run typecheck:workers"
+  }
+}

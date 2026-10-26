@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1C1C2E">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Worker is on the way"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/notification_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Your worker is heading to you"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/notification_progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_purple" />
+
+</LinearLayout>

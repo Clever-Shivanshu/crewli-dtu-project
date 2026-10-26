@@ -1,0 +1,34 @@
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Android build outputs & caches
+.gradle/
+*/.gradle/
+*/*/.gradle/
+*/*/*/.gradle/
+build/
+*/build/
+*/*/build/
+*/*/*/build/
+local.properties
+*/local.properties
+*/*/local.properties
+
+# Environment variables & secrets
+.env
+.env*
+*.env
+backend/.env
+backend/.env.starter
+backend/firebase-service-account.json
+backend/main-app-firebase-service-account.json
+customer-app/android/app/google-services.json
+workers-app/android/app/google-services.json
+
+# Logs & OS artifacts
+*.log
+*.hprof
+.DS_Store
+.idea/
+.vscode/

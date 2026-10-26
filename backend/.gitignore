@@ -1,0 +1,4 @@
+/node_modules/
+/.env
+/.env.starter
+/main-app-firebase-service-account.json
